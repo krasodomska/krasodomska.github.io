@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Carme' rel='stylesheet'>
+	</head>
+<body>
+	<div id="mobil-menu">
+		<div id="naglowek">
+			<div class="menu-symbol" onclick="showMenu(); makeX(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div> 
+			</div>
+			<script src="js/menu.js"></script>
+			<div id="smallmenu"><br />
+				<div class="part-menu"><a href="index.php">Home</a></div>
+				<div class="part-menu"><a href="#about">About</a></div>
+				<div class="part-menu"><a href="#project">Poroject</a></div>
+			</div>
+		</div>
+	</div> 
+	<div class="menu">
+		<ul class="nav-bar">
+			<li><a href="#project">Project</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="index.php">Home</a></li>
+			<li style="float:left; margin-top:15px;margin-left:2%;">krasodomska22@gmail.com<br>Tel 885 422 613</li>
+		</ul><br />
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/text.js"></script>
+	<div id="main_con">
+		<img src="image/main.JPG" alt="caffee" style="width:100%;height:500px;object-fit: cover;">
+		<div id="text_block"><br><h2 id="hello"></h2><p id="show"></p></div>
+	</div>
+	<script src="js/greeting.js"></script>
+	<div class="element" id="project" >
+		<div>
+			<hr>
+			<h2 class="element_name" >Project</h2>
+			<hr>
+		</div>
+		<div class="project_picture" style="background-color:#6f4e37;">
+			<img src="image/projekt1.JPG" class="project_foto" alt="project image">
+			<h2>Shop</h2>
+			<p>This is project created with using HTML, CSS, PHP, JS and SQL</p>
+			<div class="overlay1">
+				<div class="project_text">
+					<a href="project1/project.html">ENTER</a>
+				</div>
+			</div>
+		</div>
+		<div class="project_picture" style="float:right;background-color:#6f4e37">
+			<h2>Other project in progress</h2>
+				<div class="loader"></div>
+			<div class="overlay1">
+				<div class="project_text" style="top:25%;left:25%;">
+					<p>I'm working hard <br/>with creating a new projects.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="element" style="margin-top:30%;">
+		<div>
+			<hr>
+			<h2 class="element_name" id="about">About</h2>
+		</div>
+	<div style="height:300px; background-color:#6f4e37;text-align:center;color:white;font-size:20px;font-variant:small-caps;">
+		<p style="padding-top:8%">
+			I'm interested in web development and web desinging. <br>My passion is working with new technology
+		</p>
+		<span style="font-size:30px;cursor:pointer" onclick="openCv()"> Open CV</span>
+	</div>
+	<div id="cv" class="overlay">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeCv()">&times;</a>
+		<object  width="100%" height="100%" data="image/cv.pdf"></object>
+	</div>
+	<script src="js/cv.js"></script>
+	</div>
+</body>
+</html>
