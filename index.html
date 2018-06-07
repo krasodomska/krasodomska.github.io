@@ -31,11 +31,11 @@
     </div>
   </nav>
   <!-- Cotainer (Welcome section)-->
-  <div class="jumbotron text-center">
+  <div class="jumbotron text-center" style="boredr:2px solid red;">
     <img src="image/leaf.png" alt="leaf" class="leaf">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/text.js"></script>
-    <br><h2 id="hello" class="white"></h2><p id="show"></p>
+    <br><h2 id="hello" style="color:white"></h2><p id="show"></p>
     <script src="js/greeting.js"></script>	
   </div>
   <!-- Container (About Section) -->
@@ -121,10 +121,11 @@
           <div class="col-sm-6 form-group">
 		  <form action="mailto:krasodomska22@gmail.com" method="post" enctype="text/plain">
             <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-        
+          </div>
           <div class="col-sm-6 form-group">
             <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
           </div>
+        </div>
         <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
         <div class="row">
           <div class="col-sm-12 form-group">
@@ -138,12 +139,11 @@
     <h2 class="white">Prague</h2> <h4 class="white">the city where the photos from this website was made</h4>
   </div>
   </div>
-	</div>
   <footer "container-fluid text-center">  
-    <!-- Add Google Maps -->
-    <div id="map" style="height:400px;width:100%;z-index:1" ></div>
-    <script src="js/map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR_3FzzRfTlnb4O8A_s94hVvg054EKbsg&callback=initMap"async defer></script>
+  <!-- Add Google Maps -->
+  <div id="map" style="height:400px;width:100%;z-index:1" ></div>
+  <script src="js/map.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR_3FzzRfTlnb4O8A_s94hVvg054EKbsg&callback=initMap"async defer></script>
     <a href="#myPage" title="To Top">
       <span class="glyphicon glyphicon-chevron-up"></span>
     </a>
