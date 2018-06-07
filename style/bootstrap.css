@@ -1,5 +1,5 @@
 body {
-  font: 400 15px /* fonty sobie doróbLato, sans-serif*/;
+  font: 400 15px;
   line-height: 1.8;
   color: #3d4260;
   font-family: 'Amarante', cursive;
@@ -20,7 +20,7 @@ h4 {
 }  
 .jumbotron {
   background-color: #616161;
-  background-image: url("image/praha2.jpg");
+  background-image: url("../image/praha2.jpg");
   min-height: 650px; 
   background-attachment: fixed;
   background-position: center;
@@ -44,7 +44,7 @@ h4 {
 }
 .container-fluid {
   padding: 0px;
-  background-image: url("image/praga41.jpg");
+  background-image: url("../image/praga41.jpg");
   min-height: 650px; 
   background-attachment: fixed;
   background-position: center;
@@ -52,7 +52,7 @@ h4 {
   background-size: cover;
 }
 #aboutMe {
-  background-image: url("image/background.png");
+  background-image: url("../image/background.png");
   background-size: cover;
   text-align:center;
   color:#fff;
@@ -216,7 +216,7 @@ footer {
 }
 #skills {
   padding-top:50px;
-  background-image: url("image/praha51.jpg");
+  background-image: url("../image/praha51.jpg");
   min-height: 450px; 
   background-attachment: fixed;
   background-position: center;
