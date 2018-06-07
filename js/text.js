@@ -6,6 +6,6 @@ var showText = function (target, message, index, interval) {
 }
 $(function () {
 
-  showText("#show", "I'm a web developer.", 0, 50);   
+  showText("#show", "I'm Agnieszka Krasodomska", 0, 50);   
 
 });
