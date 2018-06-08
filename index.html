@@ -33,7 +33,10 @@
   <!-- Cotainer (Welcome section)-->
   <div class="jumbotron text-center">
     <img src="image/leaf.png" alt="leaf" class="leaf">
-    <br><h2 id="hello" style="color:white"></h2><p id="show"></p>	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/text.js"></script>
+    <br><h2 id="hello" style="color:white"></h2><p id="show"></p>
+    <script src="js/greeting.js"></script>	
   </div>
   <!-- Container (About Section) -->
   <div id="about" class="container-fluid">
@@ -48,7 +51,7 @@
           <a href="javascript:void(0)" class="closebtn" onclick="closeCv()">&times;</a>
           <object  width="100%" height="100%" data="image/cv.pdf"></object>
         </div>
-
+        <script src="js/cv.js"></script>
       </div>
       <div class="col-sm-4" style="margin-bottom:0px;">
         <div class="slideanim"><img src="image/tree1.png" alt="tree" class="tree"></div>
@@ -140,20 +143,14 @@
   <footer>  
   <!-- Add Google Maps -->
   <div id="map" style="height:400px;width:100%;z-index:1" ></div>
-  <a href="#myPage" title="To Top">
+  <script src="js/map.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR_3FzzRfTlnb4O8A_s94hVvg054EKbsg&callback=initMap" async defer></script>
+    <a href="#myPage" title="To Top">
       <span class="glyphicon glyphicon-chevron-up"></span>
     </a>
-    <p>Made by Agnieszka Krasodomska</p>
+    <p>Made by Agnieszka Krasodomka</p>
   </footer>
-	
-<script src="js/greeting.js"></script>
-<script src="js/slidetext.js"></script>
-<script src="js/text.js"></script>
-<script src="js/map.js"></script>
-	<script src="js/cv.js"></script>
-
-<script src="https://mas.googleapis.com/maps/api/js?key=AIzaSyDR_3FzzRfTlnb4O8A_s94hVvg054EKbsg&callback=initMap" async defer></script>
-
-<!--this is combine file from separate files, to see code enter 'https://krasodomska.github.io/js/x.js' x=text or x=cv or x=slidetext or x=greeting x=map x=menu-->
+<script src="js/slidetext.js">
+</script>
 </body>
 </html>
