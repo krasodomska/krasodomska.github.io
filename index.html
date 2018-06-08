@@ -151,6 +151,14 @@
 <script src="js/text.js"></script>
 <script src="js/map.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR_3FzzRfTlnb4O8A_s94hVvg054EKbsg&callback=initMap" async defer></script>
-<script src="js/cv.js"></script>
+<!-- It's realy short script. I add it here to reduce loading time this website -->
+<script> function openCv() {
+  document.getElementById("cv").style.width = "100%";
+}
+
+function closeCv() {
+  document.getElementById("cv").style.width = "0%";
+}
+</script>
 </body>
 </html>
